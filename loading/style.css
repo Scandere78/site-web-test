@@ -38,7 +38,7 @@ align-items: center;
 }
 
 .lettre {
-    color: aquamarine;
+    color: rgb(255, 0, 0);
     font-size: 80px;
     letter-spacing: 15px;
     margin-bottom: 150px;
@@ -46,15 +46,15 @@ align-items: center;
 }
 @keyframes flash {
     0% {
-        color: rgb(65, 65, 218);
-        text-shadow: 0 0 7px #eae9df;
+        color: rgba(208, 37, 37, 0.705);
+        text-shadow: 0 0 7px #e8dfea;
     }
     90% {
         color: #484848;
         text-shadow: none;
     }
     100% {
-        color: burlywood;
+        color: rgba(77, 143, 214, 0.701);
         text-shadow: 0 0 7px #fff900;
     }
 }
