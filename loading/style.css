@@ -3,7 +3,33 @@
     margin: 0;
     padding: 0;
 }
+header{
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 33px 9%;
+    background: transparent;
 
+}
+.navlist{
+    display: contents;
+}
+.navlist a{
+    color: rgb(232, 12, 63);
+    margin-left: 60px;
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: all .55s ease;
+}
+.navlist a:hover{
+    border-bottom: 2px solid rgb(218, 203, 203);
+}
 body {
     font-family: Arial, Helvetica, sans-serif;
     height: 100vh;
